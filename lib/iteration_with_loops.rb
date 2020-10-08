@@ -14,11 +14,13 @@ while row_index < src.count do
       
     end
     element_index += 1
+     
      if element_index == src[row_index].count 
+     
        daily_low << smallest_int
+    
     end
   end
-
   row_index += 1
 end
 daily_low
